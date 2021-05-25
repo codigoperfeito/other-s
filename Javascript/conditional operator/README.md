@@ -16,6 +16,14 @@
 `` var str = 'hello' + (str == 'hello' ? texto : ' world') `` <br>
 ``console.log(str)`` <br><br> **o valor que será retornado é 'hellow world' porque a variavel 'str' encontra-se dentro da condição que seria o valor da variavel.**
 
+### mesma coisa de outra forma.
+
+``` str = "hello";
+if (str == "hello"){ 
+str+= 'world';
+}else{ 
+str += "falhou";
+} ```
 - Logo nós podemos observar como nos exemplos a cima que a condicional "?;" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.
 
 # Conditional operator (?:)
