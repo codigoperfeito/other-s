@@ -18,12 +18,13 @@
 
 ### mesma coisa de outra forma.
 
-``` str = "hello";
+`` str = "hello";
 if (str == "hello"){ 
 str+= 'world';
 }else{ 
 str += "falhou";
-} ```
+} ``
+
 - Logo nós podemos observar como nos exemplos a cima que a condicional "?;" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.
 
 # Conditional operator (?:)
