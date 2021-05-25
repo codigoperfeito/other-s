@@ -1,2 +1,1 @@
-# other-s
-on here have several tips
+# on here have several tips
