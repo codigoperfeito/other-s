@@ -1,0 +1,42 @@
+*{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  }
+  body{
+    background-color: #000;
+  }
+  .container{
+    width: 500px;
+    background-color: #fab700;
+    margin: auto;
+    box-shadow: .5em .5em 0 #fab700;
+  }
+  .exemple{
+    background-color: #fff;  
+    border: 5px solid #fab700;
+  }
+  .exemple h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    background-color: #f7b700;
+    padding: 5px;
+    margin-inline-start: -1px;
+    margin-inline-end: -1px;
+  }
+  .conteudo{
+    padding: 10px;
+    margin-inline-start: 10px;
+  }
+  .code{
+    padding: 10px;
+    margin-inline-start: 25px;
+    margin-inline-end: 30px;
+    background-color: #f7f7f7;
+  }
+  .code p{
+    font-family: monospace;
+  }
+  .code p2{
+    font-family: monospace;
+    color: #9c9c9c;
+  }
