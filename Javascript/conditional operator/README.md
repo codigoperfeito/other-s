@@ -5,40 +5,50 @@
 
 
 *(PT/BR)*<br>
-- Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza o "?" e ":" para compar e atribuir valores, observe o exemplo a baixo.
+- Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza a "?" para dividir o parametro das condições e ":" para o resultado das condições, observe o exemplo a baixo.
   <br>
 ### 1º Exemplo: Sem variavel<br>
   
-``` x > 0 ? x : 1 // o valor que será retornado é 1 porque está dentro da condição. ```
+``` true ==  true ? 'true' : 'false'; // o valor que será retornado é 'true' porque está dentro da condição.  ```
 
 ### 2º Exemplo: Com variaveis
 
-`` var str = 'hello' + (str == 'hello' ? texto : ' world') `` <br>
-``console.log(str)`` <br><br> **o valor que será retornado é 'hellow world' porque a variavel 'str' encontra-se dentro da condição que seria o valor da variavel.**
+``let x = 'hello' + (x == 'hello' ? " world" : ', x not\'s true');`` <br>
+``x;`` 
+<br><br> **o valor que será retornado é 'hello world' porque está dentro da condição.**
 
 ### mesma coisa de outra forma.
 
-`` str = "hello";
-if (str == "hello"){ 
-str+= 'world';
-}else{ 
-str += "falhou";
-} ``
+`` let x = 'hello'; `` <br>
+`` if (x == 'hello'){ `` <br>
+`` x += ' world'; `` <br>
+`` }else{ `` <br>
+`` x =+ 'x not\'s true'; `` <br>
+`` } `` <br>
 
 - Logo nós podemos observar como nos exemplos a cima que a condicional "?;" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.
 
 # Conditional operator (?:)
 
 *(EN/US)*<br>
-- First example is a basic conditional operator that can replace the 'if' in a few moments, he is a conditional operator that uses the "?" and ";" to compare and assign values, see the example below.
+- First example is a basic conditional operator that can replace the 'if' in a few moments, it is a conditional operator that uses a "?" to divide the parameter of the conditions and ":" for the result of the conditions, observe the example below.
 <h3>1nd Example: Without variable</h3>
   
-`` x > 0? x: 1 // the value to be returned is 1 because it is within the condition. `` <br>
+``  true ==  true ? 'true' : 'false'; // the value to be returned is "true" because it is within the condition. `` <br> 
 
 ### 2nd Example: With variables
 
-`` var str = 'hello' + (str == 'hello' ? text : ' world')`` <br>
-``console.log (str) ``
-<br><br> **the value that will be returned is 'hellow world' because the variable 'str' is within the condition that would be the value of the variable.**
-<br> 
-- Then we can see how in the examples above that the conditional "?;" Can be a very useful tool and used to optimize our code leaving it cleaner and faster.
+``let x = 'hello' + (x == 'hello' ? " world" : ', x not\'s true');`` <br>
+``x;`` 
+<br><br> ** the value that will be returned is 'hello world' because it is within the condition. **
+
+### same thing in another way.
+
+`` let x = 'hello'; `` <br>
+`` if (x == 'hello'){ `` <br>
+`` x += ' world'; `` <br>
+`` }else{ `` <br>
+`` x =+ 'x not\'s true'; `` <br>
+`` } `` <br>
+
+- Then we can see how in the examples above that the conditional "?:" Can be a very useful tool and used to optimize our code leaving it cleaner and faster.
