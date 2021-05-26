@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/78365951/119541578-f33a5e00-bd64-11eb-8bc0-16eae52cf99b.png)
 
 
-# Operador condicional (?:)
+# Operador condicional ternário (?:)
 
 
 *(PT/BR)*<br>
@@ -28,7 +28,7 @@
 
 - Logo nós podemos observar como nos exemplos a cima que a condicional "?;" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.
 
-# Conditional operator (?:)
+# Conditional Ternary operator (?:)
 
 *(EN/US)*<br>
 - First example is a basic conditional operator that can replace the 'if' in a few moments, it is a conditional operator that uses a "?" to divide the parameter of the conditions and ":" for the result of the conditions, observe the example below.
