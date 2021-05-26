@@ -8,27 +8,30 @@
     <title>Document</title>
 </head>
 <body>
-    <body>
-        <div class="container">
-          <div class="exemple">
-            <h1>O operador condicional (?:)</h1>
-            <div class="conteudo">
-              <p>&emsp;Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza o "?" e ":" para compar e atribuir valores, observe o exemplo a baixo.</p>
-              <p>&emsp; <b>1º Exemplo:</b> Sem variavel<br></p>
-              <div class="code">
-                <p>x > 0 ? x : 1 <p2>// o valor que será retornado é 1 porque está dentro da condição.</p2></p>
-                <p></p>
-              </div>
-              
-              <p>&emsp; <b>2º Exemplo:</b> Com variaveis <br></p>
-              <div class="code">
-                <p>var wesley = 'hello' + (wesley == 'hello' ? idade : ' world')<br>
-      wesley; &emsp;<p2>// o valor que será retornado é 'hellow world' porque a variavel 'wesley' encontra-se dentro da condição que seria o valor da variavel.</p2></p>
-              </div>
-              <br><p>&emsp;Logo nós podemos observar como nos exemplos a cima que a condicional "?:" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.</p>
-            </div>
+  <body>
+    <div class="container">
+      <div class="exemple">
+        <h1>O operador condicional (?:)</h1>
+        <div class="conteudo">
+          <p>&emsp;Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza a "?" para dividir o parametro das condições e ":" para o resultado das condições, observe o exemplo a baixo.</p>
+          <p>&emsp; <b>1º Exemplo:</b> Sem variavel<br></p>
+          <div class="code">
+            <p>true == true ? 'true' : 'false';<p2> // o valor que será retornado é 'true' porque está dentro da condição.</p2>
+            </p>
+            <p></p>
           </div>
-        </div>  
-      </body>
+  
+          <p>&emsp; <b>2º Exemplo:</b> Com variaveis <br></p>
+          <div class="code">
+            <p>let x = 'hello' + (x == 'hello' ? " world" : ', x not\'s true');<br>
+              x; &emsp;<p2> // o valor que será retornado é 'hello world' porque está dentro da condição.</p2>
+            </p>
+          </div>
+          <br>
+          <p>&emsp;Logo nós podemos observar como nos exemplos a cima que a condicional "?:" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </body>
 </html>
