@@ -28,7 +28,7 @@
 
 - Logo nós podemos observar como nos exemplos a cima que a condicional "?;" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.
 
-# Conditional Ternary operator (?:)
+# Ternary Conditional operator (?:)
 
 *(EN/US)*<br>
 - First example is a basic conditional operator that can replace the 'if' in a few moments, it is a conditional operator that uses a "?" to divide the parameter of the conditions and ":" for the result of the conditions, observe the example below.
