@@ -7,18 +7,18 @@
 *(PT/BR)*<br>
 - Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza a "?" para dividir o parametro das condições e ":" para o resultado das condições, observe o exemplo a baixo.
   <br>
-### 1º Exemplo: Sem variavel<br>
+### 1º Exemplo: Sem variavel<br> 📝
   
 ``` true ==  true ? 'true' : 'false'; // o valor que será retornado é 'true' porque está dentro da condição.  ```
 
-### 2º Exemplo: Com variaveis
+### 2º Exemplo: Com variaveis 📝
 
 ``var x = 'hello';`` <br>
 ``x = x + (x == 'hello' ? " world" : 'is incorrect');``
 
 <br> **o valor que será retornado é 'hello world' porque está dentro da condição.**
 
-### mesma coisa de outra forma.
+### mesma coisa de outra forma. 📝
 
 `` let x = 'hello'; `` <br>
 `` if (x == 'hello'){ `` <br>
@@ -27,7 +27,7 @@
 `` x += 'x not\'s true'; `` <br>
 `` } `` <br>
 
-### 3nd Example: with 2 varibles
+### 3nd Example: with 2 varibles 📝
 
 ``var nome = "David", idade = 30;`` <br>
 ``idade > 18 ? (``<br>
@@ -49,13 +49,13 @@
   
 ``  true ==  true ? 'true' : 'false'; // the value to be returned is "true" because it is within the condition. `` <br> 
 
-### 2nd Example: With variables
+### 2nd Example: With variables 📝
 
 ``var x = 'hello';`` <br>
 ``x = x + (x == 'hello' ? " world" : 'is incorrect');``
 <br> ** the value that will be returned is 'hello world' because it is within the condition. **
 
-### same thing in another way.
+### same thing in another way. 📝
 
 `` let x = 'hello'; `` <br>
 `` if (x == 'hello'){ `` <br>
@@ -64,7 +64,7 @@
 `` x += 'x not\'s true'; `` <br>
 `` } `` <br>
 
-### 3nd Example: with 2 varibles
+### 3nd Example: with 2 varibles 📝
 
 ``var name = "David", age = 30;`` <br>
 ``age > 18 ? (``<br>
