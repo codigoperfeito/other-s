@@ -7,7 +7,7 @@
 *(PT/BR)*<br>
 - Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza a "?" para dividir o parametro das condições e ":" para o resultado das condições, observe o exemplo a baixo.
   <br>
-### 1º Exemplo: Sem variavel<br> 📝
+### 1º Exemplo: Sem variavel 📝<br> 
   
 ``` true ==  true ? 'true' : 'false'; // o valor que será retornado é 'true' porque está dentro da condição.  ```
 
