@@ -41,6 +41,11 @@
 
 - Logo nós podemos observar como nos exemplos a cima que a condicional "?;" pode ser uma ferramenta muito util e utilizada para optimizar nosso código deixando-o mais limpo e agil.
 
+### exercicio 
+
+[clique aqui e acesse o nosso exercicio](https://github.com/codigoperfeito/Exercises/tree/main/Javascript/exercises-7#exercicio-da-aula-de-condicionais-tern%C3%A1rias)
+
+
 # Ternary Conditional operator (?:)
 
 *(EN/US)*<br>
@@ -76,3 +81,7 @@
 ``);`` <br>
 
 - Then we can see how in the examples above that the conditional "?:" Can be a very useful tool and used to optimize our code leaving it cleaner and faster.
+
+### exercise
+
+[click here and access our exercise](https://github.com/codigoperfeito/Exercises/tree/main/Javascript/exercises-7#exercicio-da-aula-de-condacionais-tern%C3%A1rias)
