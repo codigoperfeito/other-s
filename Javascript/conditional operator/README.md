@@ -6,7 +6,9 @@
 
 *(PT/BR)*<br>
 - Primeiro exemplo é um operador condicional basico que pode substituir o 'if' em alguns momentos, ele é um operador condicional que utiliza a "?" para dividir o parametro das condições e ":" para o resultado das condições, observe o exemplo a baixo.
-  <br>
+
+- *Lembrando que nós temos um canal no youtube com essa aula, você pode vê-la [clicando aqui](https://www.youtube.com/watch?v=BqOaH1r3oBk)*
+  
 ### 1º Exemplo: Sem variavel 📝<br> 
   
 ``` true ==  true ? 'true' : 'false'; // o valor que será retornado é 'true' porque está dentro da condição.  ```
@@ -50,8 +52,10 @@
 
 *(EN/US)*<br>
 - First example is a basic conditional operator that can replace the 'if' in a few moments, it is a conditional operator that uses a "?" to divide the parameter of the conditions and ":" for the result of the conditions, observe the example below.
-<h3>1nd Example: Without variable</h3>
-  
+
+* Remembering that we have a YouTube channel with this class, you can see it [by clicking here](https://www.youtube.com/watch?v=BqOaH1r3oBk) *
+
+<h3>1nd Example: Without variable</h3>  
 ``  true ==  true ? 'true' : 'false'; // the value to be returned is "true" because it is within the condition. `` <br> 
 
 ### 2nd Example: With variables 📝
