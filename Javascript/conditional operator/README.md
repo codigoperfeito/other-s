@@ -53,7 +53,7 @@
 *(EN/US)*<br>
 - First example is a basic conditional operator that can replace the 'if' in a few moments, it is a conditional operator that uses a "?" to divide the parameter of the conditions and ":" for the result of the conditions, observe the example below.
 
-* Remembering that we have a YouTube channel with this class, you can see it [by clicking here](https://www.youtube.com/watch?v=BqOaH1r3oBk) *
+- *Remembering that we have a YouTube channel with this class, you can see it [by clicking here](https://www.youtube.com/watch?v=BqOaH1r3oBk)*
 
 <h3>1nd Example: Without variable</h3>  
 ``  true ==  true ? 'true' : 'false'; // the value to be returned is "true" because it is within the condition. `` <br> 
